@@ -1,0 +1,8 @@
+@mixin categorylink{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--c2-a);
+}

@@ -1,0 +1,28 @@
+.categories {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: var(--c1-h);
+}
+
+.categories__list {
+    display: flex;
+    gap: 40px;
+}
+
+.categories__item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+    
+
+    &::after{
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-repeat: no-repeat;
+        background-image: url(/img/categories_icon.svg);
+        display: inline-block;
+        margin-left: 2px;
+    }
+}

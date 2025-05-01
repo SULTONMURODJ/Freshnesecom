@@ -1,0 +1,140 @@
+.blog {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.blog__block {
+    display: flex;
+    gap: 31.5px;
+}
+
+.blog__card1 {
+    width: 469px;
+    border-radius: 12px;
+    padding: 24px;
+    background-repeat: no-repeat;
+    background-image: url(/img/blog_img1.png);
+
+}
+
+.blog__tips {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    border-radius: 12px;
+    padding: 2px 8px;
+    width: 82px;
+    height: 18px;
+    background: var(--c2-e);
+    margin-bottom: 228px;
+}
+
+.blog__sub {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--c1-j);
+    margin-bottom: 8px;
+}
+
+.blog__author_block {
+    display: flex;
+    align-items: center;
+}
+
+.blog__img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.blog__author {
+    font-family: var(--second-family);
+    font-size: 12px;
+    color: var(--c1-j);
+    margin-right: 16px;
+}
+
+.blog__date {
+    font-family: var(--second-family);
+    font-size: 12px;
+    color: var(--c1-j);
+}
+
+.blog__card2 {
+    width: 269px;
+}
+
+.blog__img2 {
+    border-radius: 12px;
+    width: 269px;
+    height: 180px;
+}
+
+.blog__subtitle {
+    border-radius: 12px;
+    padding: 2px 8px;
+    width: 80px;
+    height: 18px;
+    background: var(--c2-e);
+    margin-top: 24px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.blog__sub_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-top: 8px;
+}
+
+.blog__date_block {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.blog__author1 {
+    font-family: var(--second-family);
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.blog__date1 {
+    font-family: var(--second-family);
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.blog__card3{
+    width: 369px;
+}
+
+.blog__item{
+    width: 369px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.blog__content{
+    width: 225px;
+}
+
+.blog__text{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+
+.blog__img3{
+    width: 96px;
+    height: 96px;
+}
